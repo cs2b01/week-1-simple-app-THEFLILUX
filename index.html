@@ -2,11 +2,26 @@
 <html>
 <head>
 <meta charset="UTF-8">
-<title>Title of the document</title>
+<title>Login Page DBP</title>
 </head>
 
 <body>
-Content of the document......
+  <form class="" action="index.html" method="post">
+  </form>
+  <div class="theClient">
+    <div class="user line-input">
+      <label class="lnr lnr-user"></label>
+      <input type="text" placeholder="Nombre Usuario" name="usuario" id="usuario">
+    </div>
+
+    <div class="password line-input">
+      <label class="lnr lnr-lock"></label>
+      <input type="password" placeholder="Contraseña" name="password" id="password">
+    </div>
+
+    <input type="button" id="send" value="Acceder" onclick="valida();">
+  </div>
+  <script src="js/login.js"></script>
 </body>
 
 </html>
